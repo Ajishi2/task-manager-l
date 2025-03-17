@@ -1,0 +1,6 @@
+{
+    "builds": [
+      { "src": "server.php", "use": "@vercel/php" }
+    ]
+  }
+  
