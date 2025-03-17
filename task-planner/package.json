@@ -2,7 +2,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
+  "build": "vite build && /opt/homebrew/bin/php artisan config:clear && /opt/homebrew/bin/php artisan cache:clear",
         "dev": "vite"
     },
     "devDependencies": {
