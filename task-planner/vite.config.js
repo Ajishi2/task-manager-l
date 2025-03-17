@@ -9,6 +9,8 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'dist',
+        outDir: 'public/build',  // ⬅️ Change output to Laravel's public folder
+        emptyOutDir: true,
+        manifest: true,
     },
 });
